@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 940px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.col-left{
+    display: flex;
+    align-items: center;
+}
+.col-left img{
+    width: 80px;
+    height: 76px;
+}
+.col-left span{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: #919197;
+}
+.col-right{
+    display: flex;
+    align-items: center;
+}
+.ml-5{
+    margin-left: 20px;
+}
+.ml-2{
+    margin-left: 10px;
+}
+.gray-text-color{
+    color: #919197;
+}
+.phone a{
+    margin-left: 10px;
+}
+.phone a{
+    text-decoration: none;
+}
+.email a{
+    text-decoration: none;
+}
+.cart{
+    padding: 9px 15px;
+    display: flex;
+}
+.rounded-icon{
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+}
+.text-color-black{
+    color: #212127 !important;
+}
+.beneath{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.beneath a{
+    font-size: 14px;
+    color: #818187;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 20px;
+}
+.beneath a:hover{
+    color: #212127;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.sub-menu{
+    display: none;
+}
+.hover-show-submenu:hover .sub-menu{
+    display: block;
+    width: 100%;
+    list-style: none;
+}

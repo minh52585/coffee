@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Karla:ital@1&family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stlye.css/coffee.css">
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Karla', sans-serif;
+            color: #1d1f2ec7;
+            font-size: 16px;
+            line-height: 28px;
+            font-weight: 400;
+        }
+       
+        
+        
+        .sub-menu {
+            display: flex;
+            align-items: center;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            justify-content: flex-start;
+            justify-content: center;
+            margin-right: auto;
+            margin-left: auto;
+            
+        }
+        
+        a {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px none rgba(162, 95, 75, 0.3);
+            -webkit-transition: color 400ms ease, border 400ms ease;
+            transition: color 400ms ease, border 400ms ease;
+            color: #a25f4b;
+            text-decoration: none;
+            
+        }
+        
+        img {
+            border: 0;
+            overflow-clip-margin: content-box;
+            overflow: clip;
+        }
+        .our{
+            padding-right: 50px;
+            font-size: 130%;
+        }
+        .blog{
+            padding-right: 50px;
+            font-size: 130%;
+        }
+
+        .home{
+            padding-right: 50px;
+            font-size: 130%;    
+        }
+        .about{
+            padding-right: 50px;
+            font-size: 130%;
+        }
+        .contact{
+            padding-right: 50px;
+            font-size: 130%;
+        }
+        .gide{
+            font-size: 130%;
+        }
+        .logo{
+            padding-right: 50px;
+        }
+        
+        .logo-img {
+            margin-top: 0px;
+            margin-bottom: 0px
+        }
+        
+        .setting-home {
+            position: absolute;
+        }
+        
+        .background-img {
+            position: absolute;
+            text-align: center;
+            background-image: url(coffee.img/360_F_496697760_tdS4ozn74pK9vuIwh5Z7V0pNyjyvwnVG.jpg);
+            background-size: cover;
+            width: 70%;
+            height: 600px;
+            left: 198px;
+        }
+        .lable{
+            color: white;
+            position: static;
+            display: block;
+            opacity: 0.6;
+            font-size: 18px;
+            line-height: 18px;
+            font-weight: 700;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            position: absolute;
+            left: 554px;
+            top: 120px;
+
+        }
+        .lable:hover{
+            opacity: 0.8;
+        }
+        .herader{
+            position: absolute;
+            left: 47%;
+            color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 76px;
+            line-height: 363px
+        }
+        .text{
+        position: absolute;
+        left: 407px;
+        top: 240px;
+        color: white;
+        }
+        .button{
+            position: relative;
+            z-index: 50;
+            display: inline-block;
+            padding: 18px 24px;
+            border-bottom-style: none;
+            border-radius: 0px;
+            background-color: #fff;
+            font-size: 12px;
+            line-height: 18px;
+            font-weight: 700; 
+            text-align: center;
+            letter-spacing: 2px;
+            text-decoration: none;
+            text-transform: uppercase;
+            top: 50%;
+            left: 14% ;
+            
+}
+.wrap{
+    position: relative;
+    display: block;
+    width: 845px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 630px;
+}
+.sub-wrap{
+    display: block;
+    width: 70%;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    text-align: center;
+}
+.Read{
+    justify-content: center ;
+    text-decoration: underline;
+}
+.path{
+    
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    background-color: #ececed;
+}
+.mugs{
+    margin-left: 15px;
+    margin-right: 15px;
+    position: static;
+    display: block;
+    opacity: 0.6;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.minh{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.sub-item{
+    display: flex;
+}
+.item{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.price{
+    display: flex;
+    padding-left: 32px;
+}
+.sale{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 80;
+    display: inline-block;
+    margin-top: 422px;
+    margin-right: 150px;
+    padding: 6px 15px;
+    background-color: #fff;
+}
+.list-wrap{
+    margin-bottom: 100px;
+    text-align: center;
+    position: absolute;
+    left: -22%;
+}
+
+.shop{
+    display: flex;
+    width: 33%;
+    margin-bottom: 220px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+
+}
+.tea{
+    font-size:180% ;
+}
+.money{
+    display: flex;
+    justify-content: center;
+}
+    
+
+
+
+        
+        
+    </style>
+</head>
+<body>
+    <div>
+       <div class="sub-menu">
+        <div class="logo">
+            <img src="https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a4ae4ecdfb2_CoffeeStyle%20Logo.png" alt="">
+            </div>
+            <div class="home">      
+                <a href="#">Home</a>
+            </div>
+            <div class="our">
+                <a href="#">OUR PRODUCTS</a>
+            </div>
+            <div class="blog">
+                <a href="#">BLOG</a>
+            </div>
+            <div class="about">
+                <a href="#">ABOUT</a>
+            </div>
+            <div class="contact">
+                <a href="#">CONTACT</a>
+            </div>
+            <div class="gide">
+                <a href="#">STYLEGUIDE</a>
+            </div>
+           </div>
+           </div>
+           <div class="background-img">
+            <div>
+            <span class="lable">BEST PLACE TO BUY DESIGN</span>
+            <h3 class="herader">Coffee Mugs</h3>
+            <p class="text">The most versatile furniture system ever created. Designed to fit your life, made to move and grow.</p>
+            </div>
+            <div class="button " >
+                <a href="https://coffeestyle-template.webflow.io/products">EXPLORE OUR PRODUCTS</a>
+            </div>
+           </div>
+           <div class="wrap">
+            <div class="sub-wrap">
+            <h2>Even the all-powerful Pointing has no control about the blind texts.</h2>
+            <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+            <br>
+            <a class="Read" href="https://coffeestyle-template.webflow.io/about">Read the full stroy</a>
+            <br>
+            <br>
+            <div class="minh">
+            <div class="path"></div>
+            <div class="mugs">FEATURED MUGS</div>
+            <div class="path"></div>
+            </div>
+            <div class="sub-item">
+                <div class="item">
+                    <img class="item" src="coffee.img/bac_siu.webp" alt="">
+                    <p>faint silver</p>
+                    <p>$ 99.000USD</p>
+                </div>
+                <div class="item">
+                    <div class="sale">
+                        On sale
+                    </div>
+                    <img class="item" src="coffee.img/bac_siu.webp" alt="">
+                    <p>faint silver</p>
+                    <div class="price">
+                    <del>$ 1000.000 USD</del><p>$ 99.000USD</p>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+            <br>
+            <br>
+            <div class="minh">
+            <div class="path"></div>
+            <div>MORE PRODUCTS</div>
+            <div class="path"></div>
+            </div>
+            <br>
+            <div class="list-wrap">
+            <div class="shop">
+                <div>
+                <a class="item" href="#"><img src="coffee.img/black_cup.avif" alt=""></a>
+                <p class="tea">Black Tea Cup</p>
+                <br>
+                <div class="money">
+                <p>$15.00</p><del>29.000 USD</del>
+                </div>
+                </div>
+                <div>
+                <a class="item" href="#"><img src="coffee.img/black_cup.avif" alt=""></a>
+                <p class="tea">Black Tea Cup</p>
+                <br>
+                <div class="money">
+                <p>$15.00</p><del>29.000 USD</del>
+                </div>
+                </div>
+                <div>
+                <a class="item" href="#"><img src="coffee.img/black_cup.avif" alt=""></a>
+                <p class="tea">Black Tea Cup</p>
+                <br>
+                <div class="money">
+                <p>$15.00</p><del>29.000 USD</del>
+                </div>
+                </div>
+
+
+            </div>
+            <div class="shop">
+                <div>
+                <a class="item" href="#"><img src="coffee.img/black_cup.avif" alt=""></a>
+                <p class="tea">Black Tea Cup</p>
+                <br>
+                <div class="money">
+                <p>$15.00</p><del>29.000 USD</del>
+                </div>
+                </div>
+                <div>
+                <a class="item" href="#"><img src="coffee.img/black_cup.avif" alt=""></a>
+                <p class="tea">Black Tea Cup</p>
+                <br>
+                <div class="money">
+                <p>$15.00</p><del>29.000 USD</del>
+                </div>
+                </div>
+                <div>
+                <a class="item" href="#"><img src="coffee.img/black_cup.avif" alt=""></a>
+                <p class="tea">Black Tea Cup</p>
+                <br>
+                <div class="money">
+                <p>$15.00</p><del>29.000 USD</del>
+                </div>
+                </div>
+
+            </div>
+            <div class="minh">
+                <div class="path"></div>
+                <div>BUY 2 MUGS AND GET A COFFEE MAGAZINE FREE</div>
+                <div class="path"></div>
+            </div>
+            </div>
+            </div>
+        
+    </body>
+</html>
